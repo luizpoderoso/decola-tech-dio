@@ -1,4 +1,4 @@
-package com.lpdrs.decola_tech_dio.model;
+package com.lpdrs.decola_tech_dio.domain.model;
 
 import jakarta.persistence.Entity;
 
