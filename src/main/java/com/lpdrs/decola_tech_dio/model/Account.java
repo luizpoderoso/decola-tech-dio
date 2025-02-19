@@ -19,10 +19,10 @@ public class Account {
     private String agency;
 
     // total de 13 números. ex: 12345678901.23 (11 inteiros + 2 decimais)
-    @Column(scale = 13, precision = 2) // precision é o número de decimais
+    @Column(precision = 13, scale = 2) // precision é o número de decimais
     private BigDecimal balance;
 
     // limit tá recebendo nome diferente porque em algumas DBs pode ser um nome reservado.
-    @Column(name = "additional_limit", scale = 13, precision = 2) // precision é o número de decimais
+    @Column(name = "additional_limit", precision = 13, scale = 2) // precision é o número de decimais
     private BigDecimal limit;
 }

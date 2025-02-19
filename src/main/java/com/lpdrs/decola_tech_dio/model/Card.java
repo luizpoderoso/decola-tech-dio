@@ -16,6 +16,6 @@ public class Card {
     private String number;
 
     // limit tá recebendo nome diferente porque em algumas DBs pode ser um nome reservado.
-    @Column(name = "available_limit", scale = 13, precision = 2) // precision é o número de decimais
+    @Column(name = "available_limit", precision = 13, scale = 2) // precision é o número de decimais
     private BigDecimal limit;
 }
